@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "HibotAPI.web.Controllers.HibotController",
+    "Method": "GetConfirmarOpHoy",
+    "RelativePath": "api/Hibot/ConfirmarOpHoy/{Documento}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Documento",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HibotAPI.web.Controllers.HibotController",
+    "Method": "GetConfirmarOpMa\u00F1ana",
+    "RelativePath": "api/Hibot/ConfirmarOpMa\u00F1ana/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HibotAPI.web.Controllers.HibotController",
+    "Method": "DatosUsuario",
+    "RelativePath": "api/Hibot/DatosUsuario/{Documento}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Documento",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
