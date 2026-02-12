@@ -1,0 +1,88 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "HibotAPI.web",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Hibot/ConfirmarOpHoy/{Documento}": {
+      "get": {
+        "tags": [
+          "Hibot"
+        ],
+        "parameters": [
+          {
+            "name": "Documento",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Hibot/ConfirmarOpMañana/{Documento}": {
+      "get": {
+        "tags": [
+          "Hibot"
+        ],
+        "parameters": [
+          {
+            "name": "Documento",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Hibot/DatosUsuario/{Documento}": {
+      "get": {
+        "tags": [
+          "Hibot"
+        ],
+        "parameters": [
+          {
+            "name": "Documento",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Hibot/GetStatus": {
+      "get": {
+        "tags": [
+          "Hibot"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

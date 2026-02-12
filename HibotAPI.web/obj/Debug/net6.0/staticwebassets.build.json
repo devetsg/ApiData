@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "jVUYUaGs0F+8T1ovB1TxK32XjNZZC4917V1QMTgMU1E=",
-  "Source": "HibotAPI.web",
-  "BasePath": "_content/HibotAPI.web",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"mu43vLegi4AVPNkJBqIw7XaOZScmWtm0CqN/E0ohkfI=","Source":"HibotAPI.web","BasePath":"_content/HibotAPI.web","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
